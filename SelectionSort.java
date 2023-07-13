@@ -45,9 +45,9 @@ public class SelectionSort {
 			int minIndex = i;
 			for(int j=i+1;j<n;j++)
 			{
-				if(j<i)
+				if(arra[j]<arra[minIndex])
 				{
-					i=j;
+					minIndex=j;
 				}
 				int  temp = arra[minIndex];
 				arra[minIndex]=arra[i];
